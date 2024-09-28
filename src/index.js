@@ -3,6 +3,8 @@
 import dotenv from "dotenv";
 // Importing connection DB;
 import connectDB from "./db/index.js";
+import express from "express";
+const app = express();
 
 // connecting DB through function(Second Approach):
 connectDB()
@@ -15,16 +17,6 @@ connectDB()
 .catch((err)=>{
     console.log("Error in Connecting:",err);
 })
-
-
-
-
-
-
-
-
-
-
 
 
 
