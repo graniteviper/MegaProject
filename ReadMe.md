@@ -34,4 +34,8 @@ _Read about process.exit_
     - Define a middleware in `middleware` to handle unlinking file from local server using multer.
 7. Setting up of routes and controllers
     -
-    - 
+    - Setup routes and connect it with multer middleware and controllers.
+    - Use everything made till now to design the code to register a user.
+8. Test your data through postman.
+    -
+
